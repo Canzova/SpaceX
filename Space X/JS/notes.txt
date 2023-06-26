@@ -1,0 +1,21 @@
+social.style.animation = `movein 1s cubic-bezier(.51,.92,.24,1.15) forwards ${index/7 + .2}s`
+
+---> Movein is the name of the animation
+---> cubic-bezier(.51,.92,.24,1.15)  It is the type of animation like ease in out
+---> 1s is time for which the animation will take place. Animation will work for 1s
+
+---> forwards : 
+
+In CSS animations, the keyword "forwards" is used to specify the final state of an animation after it completes. When an animation is set to "forwards", it means that the element being animated will retain the styles applied to it during the last keyframe of the animation.
+
+To explain it simply, imagine you have an element that moves across the screen using an animation. When the animation finishes and reaches its final keyframe, if you set it to "forwards", the element will stay in its last position or state, rather than returning to its original position or default styles.
+
+Think of it like taking a snapshot of the element's appearance at the end of the animation and keeping it there. This allows you to create effects where an element remains in a specific position or with specific styles after the animation finishes.
+
+By using "forwards" in CSS animations, you can control how an element behaves after the animation is complete, ensuring it retains the visual changes made during the animation rather than reverting back to its original state.
+
+--->${index/7 + .2}s here we are dynamically givind delay to the div elements. 
+---> For 1st iteration index will be 0;
+---> For 2nd iteration index will be 1;
+---> For 3th iteration index will be 3;
+---> For 4th iteration index will be 4;
