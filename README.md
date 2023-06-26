@@ -1,4 +1,4 @@
-# spacex-redesign
+# Spacex-redesign
 
 Spacex redesign using Html, Css and JavaScript.
 
